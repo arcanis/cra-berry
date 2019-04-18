@@ -1,0 +1,47 @@
+{
+  "name": "cra",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "24.0.11",
+    "@types/node": "11.13.5",
+    "@types/react": "16.8.13",
+    "@types/react-dom": "16.8.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8",
+    "ts-pnp": "^1.1.0",
+    "typescript": "3.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependenciesMeta": {
+    "fsevents": {
+      "built": false
+    }
+  },
+  "resolutions": {
+    "fork-ts-checker-webpack-plugin": "exec:./custom/fork-ts-checker-webpack-plugin.js",
+    "babel-plugin-named-asset-import": "exec:./custom/react-scripts.js",
+    "babel-preset-react-app": "exec:./custom/react-scripts.js",
+    "confusing-browser-globals": "exec:./custom/react-scripts.js",
+    "eslint-config-react-app": "exec:./custom/react-scripts.js",
+    "react-app-polyfill": "exec:./custom/react-scripts.js",
+    "react-dev-utils": "exec:./custom/react-scripts.js",
+    "react-error-overlay": "exec:./custom/react-scripts.js",
+    "react-scripts": "exec:./custom/react-scripts.js"
+  }
+}
